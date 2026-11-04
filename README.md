@@ -197,3 +197,9 @@ codificamed/
 
 Es un prototipo académico de **apoyo** a la codificación y no reemplaza a un codificador
 certificado. Ver el informe ejecutivo para el detalle de las limitaciones.
+
+## Entregables
+
+- **Informe ejecutivo:** [docs/informe_ejecutivo.pdf](docs/informe_ejecutivo.pdf)
+- **Video demostrativo (5:40):** [ver en Microsoft Stream](https://liveespochedu-my.sharepoint.com/:v:/g/personal/bryan_guayan_espoch_edu_ec/IQC5d006F4K3SIjh6vLxrna2Ac5LdkIWLzzZnijp4lWOA_Q?e=GqF1xy)
+- **Resultados de la evaluación:** [results/comparacion.md](results/comparacion.md)
