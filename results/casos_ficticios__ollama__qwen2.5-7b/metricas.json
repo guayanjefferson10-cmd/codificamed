@@ -1,0 +1,1348 @@
+{
+  "casos": 40,
+  "fallos": 0,
+  "exacto": {
+    "precision": 0.3942,
+    "recall": 0.7069,
+    "f1": 0.5062,
+    "tp": 41,
+    "fp": 63,
+    "fn": 17,
+    "f1_macro": 0.5142
+  },
+  "categoria": {
+    "precision": 0.4902,
+    "recall": 0.8621,
+    "f1": 0.625,
+    "tp": 50,
+    "fp": 52,
+    "fn": 8,
+    "f1_macro": 0.6365
+  },
+  "negacion": {
+    "menciones_negadas": 40,
+    "confirmadas_por_error": 0,
+    "exactitud": 1.0
+  },
+  "evidencia_localizada": 0.9867,
+  "ajustes_negex": 0,
+  "latencia_media_s": 21.393,
+  "latencia_mediana_s": 19.798,
+  "latencia_llm_media_s": 20.933,
+  "tokens_entrada_total": 75946,
+  "tokens_salida_total": 10042,
+  "detalle": [
+    {
+      "id": "F01",
+      "gold": [
+        "I10",
+        "E11.9"
+      ],
+      "pred": [
+        "I10",
+        "E11.9"
+      ],
+      "exacto": {
+        "tp": [
+          "I10",
+          "E11.9"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "I10",
+          "E11"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F02",
+      "gold": [
+        "N39.0"
+      ],
+      "pred": [
+        "N39.0",
+        "R30.0",
+        "R35",
+        "R82.7"
+      ],
+      "exacto": {
+        "tp": [
+          "N39.0"
+        ],
+        "fp": [
+          "R30.0",
+          "R35",
+          "R82.7"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "N39"
+        ],
+        "fp": [
+          "R30",
+          "R35",
+          "R82"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F03",
+      "gold": [
+        "J18.9",
+        "J44.0|J44.1"
+      ],
+      "pred": [
+        "J18.9",
+        "J44.9"
+      ],
+      "exacto": {
+        "tp": [
+          "J18.9"
+        ],
+        "fp": [
+          "J44.9"
+        ],
+        "fn": [
+          "J44.0|J44.1"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "J18",
+          "J44"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F04",
+      "gold": [
+        "J03.0|J02.0"
+      ],
+      "pred": [
+        "J03.0",
+        "A40.0"
+      ],
+      "exacto": {
+        "tp": [
+          "J03.0"
+        ],
+        "fp": [
+          "A40.0"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "J03"
+        ],
+        "fp": [
+          "A40"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F05",
+      "gold": [
+        "G43.0"
+      ],
+      "pred": [
+        "R51",
+        "R11"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "R51",
+          "R11"
+        ],
+        "fn": [
+          "G43.0"
+        ]
+      },
+      "categoria": {
+        "tp": [],
+        "fp": [
+          "R51",
+          "R11"
+        ],
+        "fn": [
+          "G43.0"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F06",
+      "gold": [
+        "I21.0",
+        "E78.5|E78.4|E78.2"
+      ],
+      "pred": [
+        "I21.0",
+        "E78.5"
+      ],
+      "exacto": {
+        "tp": [
+          "I21.0",
+          "E78.5"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "I21",
+          "E78"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F07",
+      "gold": [
+        "K35.9"
+      ],
+      "pred": [
+        "K35.9",
+        "R50.8",
+        "R10",
+        "D72.8"
+      ],
+      "exacto": {
+        "tp": [
+          "K35.9"
+        ],
+        "fp": [
+          "R50.8",
+          "R10",
+          "D72.8"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "K35"
+        ],
+        "fp": [
+          "R50",
+          "R10",
+          "D72"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F08",
+      "gold": [
+        "O14.9|O14.0"
+      ],
+      "pred": [
+        "O14.9",
+        "R51",
+        "R80"
+      ],
+      "exacto": {
+        "tp": [
+          "O14.9"
+        ],
+        "fp": [
+          "R51",
+          "R80"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "O14"
+        ],
+        "fp": [
+          "R51",
+          "R80"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F09",
+      "gold": [
+        "S72.0",
+        "G30.9|F00.9"
+      ],
+      "pred": [
+        "G30.8",
+        "S72.0"
+      ],
+      "exacto": {
+        "tp": [
+          "S72.0"
+        ],
+        "fp": [
+          "G30.8"
+        ],
+        "fn": [
+          "G30.9|F00.9"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "S72",
+          "G30"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F10",
+      "gold": [
+        "K26.9"
+      ],
+      "pred": [
+        "K26.3",
+        "B15",
+        "R68.8"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "K26.3",
+          "B15",
+          "R68.8"
+        ],
+        "fn": [
+          "K26.9"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "K26"
+        ],
+        "fp": [
+          "B15",
+          "R68"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F11",
+      "gold": [
+        "E03.9",
+        "K21.9"
+      ],
+      "pred": [
+        "E03.9",
+        "K21.9"
+      ],
+      "exacto": {
+        "tp": [
+          "E03.9",
+          "K21.9"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "E03",
+          "K21"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F12",
+      "gold": [
+        "J45.9|J45.0|J46"
+      ],
+      "pred": [
+        "J46",
+        "Z57.0",
+        "R50"
+      ],
+      "exacto": {
+        "tp": [
+          "J46"
+        ],
+        "fp": [
+          "Z57.0",
+          "R50"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "J46"
+        ],
+        "fp": [
+          "Z57",
+          "R50"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F13",
+      "gold": [
+        "N18.9|N18.8|N08.3",
+        "E11.2",
+        "I10|I12.0|I12.9"
+      ],
+      "pred": [
+        "N18",
+        "E11.2",
+        "I15.1",
+        "I83.9",
+        "E11.9",
+        "I10"
+      ],
+      "exacto": {
+        "tp": [
+          "E11.2",
+          "I10"
+        ],
+        "fp": [
+          "N18",
+          "I15.1",
+          "I83.9",
+          "E11.9"
+        ],
+        "fn": [
+          "N18.9|N18.8|N08.3"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "N18",
+          "E11",
+          "I10"
+        ],
+        "fp": [
+          "I15",
+          "I83"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F14",
+      "gold": [
+        "J00"
+      ],
+      "pred": [
+        "J00",
+        "R53"
+      ],
+      "exacto": {
+        "tp": [
+          "J00"
+        ],
+        "fp": [
+          "R53"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "J00"
+        ],
+        "fp": [
+          "R53"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F15",
+      "gold": [
+        "M54.5"
+      ],
+      "pred": [
+        "M54.5"
+      ],
+      "exacto": {
+        "tp": [
+          "M54.5"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "M54"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F16",
+      "gold": [
+        "B37.3"
+      ],
+      "pred": [
+        "B37.3",
+        "L29.2"
+      ],
+      "exacto": {
+        "tp": [
+          "B37.3"
+        ],
+        "fp": [
+          "L29.2"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "B37"
+        ],
+        "fp": [
+          "L29"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F17",
+      "gold": [
+        "E11.9|E11.8|E11.6",
+        "E66.9|E66.0"
+      ],
+      "pred": [
+        "E11.9",
+        "R35",
+        "R63.1",
+        "R81",
+        "Z72.0"
+      ],
+      "exacto": {
+        "tp": [
+          "E11.9"
+        ],
+        "fp": [
+          "R35",
+          "R63.1",
+          "R81",
+          "Z72.0"
+        ],
+        "fn": [
+          "E66.9|E66.0"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "E11"
+        ],
+        "fp": [
+          "R35",
+          "R63",
+          "R81",
+          "Z72"
+        ],
+        "fn": [
+          "E66.9|E66.0"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F18",
+      "gold": [
+        "A08.0",
+        "E86"
+      ],
+      "pred": [
+        "A08.0",
+        "K13.4",
+        "E86",
+        "A09"
+      ],
+      "exacto": {
+        "tp": [
+          "A08.0",
+          "E86"
+        ],
+        "fp": [
+          "K13.4",
+          "A09"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "A08",
+          "E86"
+        ],
+        "fp": [
+          "K13",
+          "A09"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F19",
+      "gold": [
+        "F32.1"
+      ],
+      "pred": [
+        "F32.1",
+        "Z92.9",
+        "F51.0"
+      ],
+      "exacto": {
+        "tp": [
+          "F32.1"
+        ],
+        "fp": [
+          "Z92.9"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "F32"
+        ],
+        "fp": [
+          "Z92"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F20",
+      "gold": [
+        "I48",
+        "I50.0|I50.9"
+      ],
+      "pred": [
+        "I50.0",
+        "I48",
+        "D68.3",
+        "I11.9"
+      ],
+      "exacto": {
+        "tp": [
+          "I48",
+          "I50.0"
+        ],
+        "fp": [
+          "D68.3",
+          "I11.9"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "I48",
+          "I50"
+        ],
+        "fp": [
+          "D68",
+          "I11"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F21",
+      "gold": [
+        "M10.9|M10.0"
+      ],
+      "pred": [
+        "M10.9",
+        "M13.9",
+        "E87.2"
+      ],
+      "exacto": {
+        "tp": [
+          "M10.9"
+        ],
+        "fp": [
+          "M13.9",
+          "E87.2"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "M10"
+        ],
+        "fp": [
+          "M13",
+          "E87"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F22",
+      "gold": [
+        "K70.3",
+        "F10.2"
+      ],
+      "pred": [
+        "K70.3",
+        "R18",
+        "F10.2"
+      ],
+      "exacto": {
+        "tp": [
+          "K70.3",
+          "F10.2"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "K70",
+          "F10"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F23",
+      "gold": [
+        "M17.0|M17.9|M17.1",
+        "I10"
+      ],
+      "pred": [
+        "M17.0",
+        "I10"
+      ],
+      "exacto": {
+        "tp": [
+          "M17.0",
+          "I10"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "M17",
+          "I10"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F24",
+      "gold": [
+        "B85.0"
+      ],
+      "pred": [
+        "B85.0",
+        "L29"
+      ],
+      "exacto": {
+        "tp": [
+          "B85.0"
+        ],
+        "fp": [
+          "L29"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "B85"
+        ],
+        "fp": [
+          "L29"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F25",
+      "gold": [
+        "K80.0"
+      ],
+      "pred": [
+        "K81.0",
+        "K80.0"
+      ],
+      "exacto": {
+        "tp": [
+          "K80.0"
+        ],
+        "fp": [
+          "K81.0"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "K80"
+        ],
+        "fp": [
+          "K81"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F26",
+      "gold": [
+        "N40"
+      ],
+      "pred": [
+        "N42.9"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "N42.9"
+        ],
+        "fn": [
+          "N40"
+        ]
+      },
+      "categoria": {
+        "tp": [],
+        "fp": [
+          "N42"
+        ],
+        "fn": [
+          "N40"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F27",
+      "gold": [
+        "D50.0|D50.9",
+        "N92.0|N92.1"
+      ],
+      "pred": [
+        "D50.0",
+        "D50.9"
+      ],
+      "exacto": {
+        "tp": [
+          "D50.0"
+        ],
+        "fp": [],
+        "fn": [
+          "N92.0|N92.1"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "D50"
+        ],
+        "fp": [],
+        "fn": [
+          "N92.0|N92.1"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F28",
+      "gold": [
+        "S81.8|S81.9"
+      ],
+      "pred": [
+        "S81"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "S81"
+        ],
+        "fn": [
+          "S81.8|S81.9"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "S81"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F29",
+      "gold": [
+        "E05.0"
+      ],
+      "pred": [
+        "E05.0",
+        "I47.1",
+        "R63.4"
+      ],
+      "exacto": {
+        "tp": [
+          "E05.0"
+        ],
+        "fp": [
+          "I47.1",
+          "R63.4"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "E05"
+        ],
+        "fp": [
+          "I47",
+          "R63"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F30",
+      "gold": [
+        "I69.3",
+        "I10",
+        "I48"
+      ],
+      "pred": [
+        "I69.4",
+        "I15.9"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "I69.4",
+          "I15.9"
+        ],
+        "fn": [
+          "I69.3",
+          "I10",
+          "I48"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "I69"
+        ],
+        "fp": [
+          "I15"
+        ],
+        "fn": [
+          "I10",
+          "I48"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F31",
+      "gold": [
+        "S93.4"
+      ],
+      "pred": [
+        "S93.4"
+      ],
+      "exacto": {
+        "tp": [
+          "S93.4"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "S93"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F32",
+      "gold": [
+        "H66.0|H66.9"
+      ],
+      "pred": [
+        "H66.0",
+        "R45.4"
+      ],
+      "exacto": {
+        "tp": [
+          "H66.0"
+        ],
+        "fp": [
+          "R45.4"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "H66"
+        ],
+        "fp": [
+          "R45"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F33",
+      "gold": [
+        "B24|Z21"
+      ],
+      "pred": [
+        "B20",
+        "D84",
+        "R75",
+        "D84.8",
+        "B23.0"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "B20",
+          "D84",
+          "R75",
+          "D84.8",
+          "B23.0"
+        ],
+        "fn": [
+          "B24|Z21"
+        ]
+      },
+      "categoria": {
+        "tp": [],
+        "fp": [
+          "B20",
+          "D84",
+          "R75",
+          "B23"
+        ],
+        "fn": [
+          "B24|Z21"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F34",
+      "gold": [
+        "A15.0"
+      ],
+      "pred": [
+        "A15.0",
+        "R05",
+        "R04.2",
+        "P50.9"
+      ],
+      "exacto": {
+        "tp": [
+          "A15.0"
+        ],
+        "fp": [
+          "R05",
+          "R04.2",
+          "P50.9"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "A15"
+        ],
+        "fp": [
+          "R05",
+          "R04",
+          "P50"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F35",
+      "gold": [
+        "O21.0"
+      ],
+      "pred": [
+        "O21.0",
+        "R11"
+      ],
+      "exacto": {
+        "tp": [
+          "O21.0"
+        ],
+        "fp": [
+          "R11"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "O21"
+        ],
+        "fp": [
+          "R11"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F36",
+      "gold": [
+        "I50.0|I50.9",
+        "I48"
+      ],
+      "pred": [
+        "I48",
+        "I50.1",
+        "R73.9"
+      ],
+      "exacto": {
+        "tp": [
+          "I48"
+        ],
+        "fp": [
+          "I50.1",
+          "R73.9"
+        ],
+        "fn": [
+          "I50.0|I50.9"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "I50",
+          "I48"
+        ],
+        "fp": [
+          "R73"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F37",
+      "gold": [
+        "T22.2"
+      ],
+      "pred": [
+        "T23.2"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "T23.2"
+        ],
+        "fn": [
+          "T22.2"
+        ]
+      },
+      "categoria": {
+        "tp": [],
+        "fp": [
+          "T23"
+        ],
+        "fn": [
+          "T22.2"
+        ]
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F38",
+      "gold": [
+        "A90"
+      ],
+      "pred": [
+        "A90",
+        "R50.8",
+        "M79.1",
+        "M54.8",
+        "D69.1"
+      ],
+      "exacto": {
+        "tp": [
+          "A90"
+        ],
+        "fp": [
+          "R50.8",
+          "M79.1",
+          "M54.8",
+          "D69.1"
+        ],
+        "fn": []
+      },
+      "categoria": {
+        "tp": [
+          "A90"
+        ],
+        "fp": [
+          "R50",
+          "M79",
+          "M54",
+          "D69"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F39",
+      "gold": [
+        "E11.4",
+        "E66.9",
+        "G47.3"
+      ],
+      "pred": [
+        "E11.9",
+        "G57.1",
+        "E66.9",
+        "G47.3"
+      ],
+      "exacto": {
+        "tp": [
+          "E66.9",
+          "G47.3"
+        ],
+        "fp": [
+          "E11.9",
+          "G57.1"
+        ],
+        "fn": [
+          "E11.4"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "E11",
+          "E66",
+          "G47"
+        ],
+        "fp": [
+          "G57"
+        ],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    },
+    {
+      "id": "F40",
+      "gold": [
+        "F41.0"
+      ],
+      "pred": [
+        "F41.8"
+      ],
+      "exacto": {
+        "tp": [],
+        "fp": [
+          "F41.8"
+        ],
+        "fn": [
+          "F41.0"
+        ]
+      },
+      "categoria": {
+        "tp": [
+          "F41"
+        ],
+        "fp": [],
+        "fn": []
+      },
+      "negados_confirmados": [],
+      "error": null
+    }
+  ],
+  "proveedor": "ollama",
+  "modelo": "qwen2.5:7b",
+  "dataset": "casos_ficticios.jsonl",
+  "embeddings": "hibrido",
+  "politica_negacion": "hibrida",
+  "duracion_total_s": 855.8
+}

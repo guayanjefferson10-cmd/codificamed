@@ -1,0 +1,91 @@
+codigo,sinonimos
+I10,hipertensión arterial; HTA; hipertensión arterial sistémica
+E10,diabetes mellitus tipo 1; DM1; diabetes insulinodependiente
+E11,diabetes mellitus tipo 2; DM2; diabetes del adulto
+E11.9,diabetes mellitus tipo 2 sin complicaciones
+E11.2,nefropatía diabética; enfermedad renal diabética
+E11.4,neuropatía diabética; polineuropatía diabética
+E11.3,retinopatía diabética
+E11.5,pie diabético; angiopatía diabética
+E11.1,cetoacidosis diabética
+E78,dislipidemia
+E78.5,dislipidemia; hiperlipidemia; colesterol alto
+E78.0,hipercolesterolemia
+E78.1,hipertrigliceridemia
+E66,obesidad; sobrepeso
+E03.9,hipotiroidismo
+E05,hipertiroidismo
+E05.0,enfermedad de Graves; enfermedad de Basedow
+E86,deshidratación
+I21,infarto agudo de miocardio; IAM; infarto cardíaco
+I20,angina de pecho
+I24,síndrome coronario agudo
+I25,cardiopatía isquémica crónica
+I48,fibrilación auricular; FA; flutter auricular
+I50,insuficiencia cardíaca; ICC; falla cardíaca
+I63,accidente cerebrovascular isquémico; ACV isquémico; ictus isquémico
+I64,accidente cerebrovascular; ACV; ictus
+I69.3,secuela de ACV isquémico
+I26,tromboembolia pulmonar; TEP
+I80,trombosis venosa profunda; TVP
+I60,hemorragia subaracnoidea; HSA
+J00,resfriado común; rinofaringitis aguda; catarro
+J02,faringitis aguda
+J03,amigdalitis aguda; faringoamigdalitis
+J03.0,faringoamigdalitis estreptocócica
+J06.9,infección respiratoria aguda alta; IRA
+J18,neumonía; neumonía adquirida en la comunidad; NAC
+J18.9,neumonía adquirida en la comunidad no especificada
+J44,EPOC; enfermedad pulmonar obstructiva crónica
+J44.1,EPOC reagudizado; exacerbación de EPOC
+J44.0,EPOC con infección respiratoria baja
+J45,asma bronquial
+J46,crisis asmática; estado asmático; asma aguda grave
+G47.3,apnea obstructiva del sueño; SAOS
+G43,migraña; jaqueca
+G43.0,migraña sin aura; migraña común
+G30,enfermedad de Alzheimer; demencia tipo Alzheimer
+K21,reflujo gastroesofágico; ERGE
+K29,gastritis
+K35,apendicitis aguda
+K80.0,colecistitis aguda litiásica
+K80.2,colelitiasis; litiasis vesicular
+K70.3,cirrosis alcohólica
+K74.6,cirrosis hepática
+A09,enfermedad diarreica aguda; EDA; gastroenteritis aguda
+A08.0,diarrea por rotavirus; gastroenteritis por rotavirus
+A15,tuberculosis pulmonar; TB pulmonar; TBC
+A15.0,tuberculosis pulmonar BK positivo; baciloscopía positiva
+A90,dengue sin signos de alarma; dengue clásico
+A91,dengue grave; dengue con signos de alarma
+B24,VIH; infección por VIH; SIDA
+Z21,VIH asintomático; portador de VIH
+B37.3,candidiasis vulvovaginal; vaginitis por cándida
+B85.0,pediculosis capitis; piojos
+N39.0,infección de vías urinarias; infección del tracto urinario; IVU; ITU
+N10,pielonefritis aguda
+N18,enfermedad renal crónica; ERC; insuficiencia renal crónica
+N40,hiperplasia prostática benigna; HPB
+N92.0,menorragia; hipermenorrea
+D50,anemia ferropénica; anemia por deficiencia de hierro
+M10,gota; artritis gotosa; podagra
+M17,gonartrosis; artrosis de rodilla; osteoartrosis de rodilla
+M16,coxartrosis; artrosis de cadera
+M54.5,lumbalgia; lumbago; dolor lumbar bajo
+M51.2,hernia discal lumbar
+M06.9,artritis reumatoide
+S72.0,fractura de cadera; fractura de cuello femoral
+S93.4,esguince de tobillo
+F32,depresión; episodio depresivo; depresión mayor
+F41.0,trastorno de pánico; crisis de pánico; ataques de pánico
+F41.1,trastorno de ansiedad generalizada
+F10.2,alcoholismo; dependencia al alcohol
+F17.2,tabaquismo; dependencia a la nicotina
+O14,preeclampsia
+O21.0,hiperémesis gravídica leve
+H66,otitis media aguda
+H66.0,otitis media aguda supurativa
+R50.9,fiebre; síndrome febril
+R51,cefalea
+R10.4,dolor abdominal
+R07.4,dolor torácico
